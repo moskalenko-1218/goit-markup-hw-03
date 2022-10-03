@@ -1,0 +1,240 @@
+:root {
+  --background-color: #f5f5f5;
+  --title-text-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+.header {
+  background-color: #ffffff;
+  width: 1600px;
+  height: 80px;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #757575;
+  color: #212121;
+}
+
+.hero {
+  background-color: #2f303a;
+  text-align: center;
+}
+
+/* ------ ЗАГОЛОВКИ / ПІДЗАГОЛОВКИ / ТЕКСТ----- */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+
+
+.title-hero {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.subtitle {
+  color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+.subtitle-project {
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.subtitle-about {
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.project .text {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.special .text {
+  color: #757575;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.about .text {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+/* ---------КОНТАКТИ---------- */
+.contact-link .link {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.contact-link .link:hover {
+  color: #2196f3;
+}
+.contact-link .link:focus {
+  color: #2196f3;
+}
+/*--------ПОСИЛАННЯ / КНОПКИ -------*/
+
+.link {
+  text-decoration: none;
+}
+.logo-link {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.logo-studio {
+  color: #212121;
+
+
+}
+.nav-link .link {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.nav-link .link:hover {
+  color: #2196f3;
+}
+
+.nav-link .link:focus {
+  color: #2196f3;
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+.adress {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+
+}
+
+.tel {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 0.03em;
+
+
+}
+
+.mailto {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+
+}
+
+/* ------КНОПКИ------ */
+
+.button {
+  cursor: pointer;
+
+
+}
+.button .site-button:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.hero .button-hero:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.hero .button-hero:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.button-hero {
+  cursor: pointer;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.site-button {
+  cursor: pointer;
+}
+
+.footer {
+  background-color: 2F303A;
+  width: 1600;
+  height: 252;
+}
+
+/* team card  background FFFFFF */
+
+/*----------- прибирає підкреслення --------*/
+.list {
+  list-style: none;
+}
+.line {
+  list-style-type: none;
+
+
+}
