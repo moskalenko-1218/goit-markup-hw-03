@@ -14,39 +14,40 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <nav class="nav-link list">
+    <div class="container">
+      <nav class="nav-link">
         <a href="./index.html" class="logo-link">Web<span class="logo-studio">Studio</span></a>
-        <ul class="list current">
-          <li><a href="./index.html" class="link">Студія</a></li>
-          <li>
-            <a href="./portfolio.html" class="link"><span class="current">Портфоліо</span></a>
+        <ul class=" list">
+          <li class="item"><a href="./index.html" class="link current">Студія</a></li>
+          <li class="item"><a href="./portfolio.html" class="link current">Портфоліо</a>
           </li>
-          <li><a class="link" href="">Контакти</a></li>
+          <li class="item"><a class="link" href="">Контакти</a></li>
         </ul>
       </nav>
 
       <ul class="contact-link list">
-        <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li class="contact"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li class="contact"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
+    </div>
     </header>
     <main>
+     
       <h1 class="visually-hidden">Портфоліо</h1>
-      <section>
+      <section class="section">
+        <div class="container">
         <ul class="button list">
-          <li><button type="button" class="site-button">Усі</button></li>
-          <li><button type="button" class="site-button">Веб-сайти</button></li>
-          <li><button type="button" class="site-button">Додатки</button></li>
-          <li><button type="button" class="site-button">Дизайн</button></li>
-          <li><button type="button" class="site-button">Маркетинг</button></li>
+          <li class="btn"><button type="button" class="site-button">Усі</button></li>
+          <li class="btn"><button type="button" class="site-button">Веб-сайти</button></li>
+          <li class="btn"><button type="button" class="site-button">Додатки</button></li>
+          <li class="btn"><button type="button" class="site-button">Дизайн</button></li>
+          <li class="btn"><button type="button" class="site-button">Маркетинг</button></li>
         </ul>
         <ul class="project list">
           <li>
@@ -55,7 +56,7 @@
               alt="відкритий ноутбук з трьома фото на екрані"
               width="370"
             />
-            <h2 class="sudtitle-project">Технокряк</h2>
+            <h2 class="subtitle-project">Технокряк</h2>
             <p class="text">Веб-сайт</p>
           </li>
           <li>
@@ -64,48 +65,50 @@
               alt="постер з бактетболістами двох команд"
               width="370"
             />
-            <h2 class="sudtitle-project">Постер New Orlean vs Golden Star</h2>
+            <h2 class="subtitle-project">Постер New Orlean vs Golden Star</h2>
             <p class="text">Дизайн</p>
           </li>
           <li>
             <img src="./images/portfolio3.jpg" alt="логотип ресторана seafood" width="370" />
-            <h2 class="sudtitle-project">Ресторан Seafood</h2>
+            <h2 class="subtitle-project">Ресторан Seafood</h2>
             <p class="text">Додаток</p>
           </li>
           <li>
             <img src="./images/portfolio4.jpg" alt="зображення навушників" width="370" />
-            <h2 class="sudtitle-project">Проєкт Prime</h2>
+            <h2 class="subtitle-project">Проєкт Prime</h2>
             <p class="text">Маркетинг</p>
           </li>
           <li>
             <img src="./images/portfolio5.jpg" alt="зображення двох боксів" width="370" />
-            <h2 class="sudtitle-project">Проєкт Boxes</h2>
+            <h2 class="subtitle-project">Проєкт Boxes</h2>
             <p class="text">Додаток</p>
           </li>
           <li>
             <img src="./images/portfolio6.jpg" alt="зображення комп'ютера" width="370" />
-            <h2 class="sudtitle-project">Inspiration has no Borders</h2>
+            <h2 class="subtitle-project">Inspiration has no Borders</h2>
             <p class="text">Веб-сайт</p>
           </li>
           <li>
             <img src="./images/portfolio7.jpg" alt="розгорнутий журнал" width="370" />
-            <h2 class="sudtitle-project">Видання Limited Edition</h2>
+            <h2 class="subtitle-project">Видання Limited Edition</h2>
             <p class="text">Дизайн</p>
           </li>
           <li>
             <img src="./images/portfolio8.jpg" alt="бірка з логотипом" width="370" />
-            <h2 class="sudtitle-project">Проєкт LAB</h2>
+            <h2 class="subtitle-project">Проєкт LAB</h2>
             <p class="text">Маркетинг</p>
           </li>
           <li>
             <img src="./images/portfolio9.jpg" alt="людина друкує на ноутбуці" width="370" />
-            <h2 class="sudtitle-project">Growing Business</h2>
+            <h2 class="subtitle-project">Growing Business</h2>
             <p class="text">Додаток</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer>
+      <div class="container">
       <a href="./index.html" class="logo-link">Web<span class="logo-studio">Studio</span></a>
       <address>
         <ul class="contact-link list">
@@ -122,6 +125,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
